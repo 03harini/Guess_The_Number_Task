@@ -44,6 +44,22 @@ input[type="number"] {
   width: 250px;
   text-align: center;
 }
+.play-again-button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.play-again-button:hover {
+  background-color: #e68900;
+}
 
 .button {
   padding: 10px 20px;
